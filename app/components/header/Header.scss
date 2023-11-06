@@ -1,0 +1,29 @@
+header {
+  form {
+    img {
+      width: 56px;
+      height: 56px;
+      margin-left: -70px;
+    }
+    input {
+      width: 376px;
+      height: 66px;
+      border-radius: 36px;
+      background: #fafafa;
+      padding-left: 20px;
+      outline: none;
+      border: 1px solid #ccc;
+    }
+  }
+  button {
+    width: 139px;
+    height: 66px;
+    border-radius: 33px;
+    border: 1px solid #e0e0e0;
+    &:hover{
+        background-color: #ccc;
+        transition: 0.3s;
+
+    }
+  }
+}
